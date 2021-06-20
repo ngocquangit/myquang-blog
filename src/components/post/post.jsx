@@ -2,7 +2,7 @@ import React from 'react';
 import './post.css';
 import {Link} from 'react-router-dom'
 const post = ({post}) => {
-    const pic = "http://localhost:5000/images/"
+    const pic = "https://myquang-blog.glitch.me/images/"
     return (
         <div className="post">
             {post.photo ? 

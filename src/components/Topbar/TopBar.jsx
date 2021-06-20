@@ -8,7 +8,7 @@ import { Context } from '../../context/context';
 
 const TopBar = () => {
     const {user,dispatch} = useContext(Context);
-    const PF = "http://localhost:5000/images/"
+    const PF = "https://myquang-blog.glitch.me/images/"
     const handleLogout =()=> {
         dispatch({type:"LOGOUT"})
     }

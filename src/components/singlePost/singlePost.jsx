@@ -10,7 +10,7 @@ const SinglePost = () => {
     const [post,setPost] = useState({});
     const [updateMode,setUpdateMode] = useState(false);
     const {user} = useContext(Context);
-    const pic = "http://localhost:5000/images/";
+    const pic = "https://myquang-blog.glitch.me/images/";
     const [title,setTitle] = useState("");
     const [desc,setDesc] = useState("");
     const handleDelete= async ()=> {

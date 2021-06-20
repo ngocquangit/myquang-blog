@@ -11,7 +11,7 @@ const Setting = () => {
     const [password,setPassword] = useState("");
     const [repassword,setRepassword] = useState("");
     const [success,setSuccess] = useState(false);
-    const PF = "http://localhost:5000/images/"
+    const PF = "https://myquang-blog.glitch.me/images/"
     const handleUpdate = async (e)=>{
         e.preventDefault();
         dispatch({type:"UPDATE_START"})
