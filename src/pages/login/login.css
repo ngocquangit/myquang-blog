@@ -1,0 +1,73 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-size: cover;
+  }
+  
+  .login__Title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+  }
+  
+  .login__Form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+  
+  .login__Form > label {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .login__Input {
+    padding: 14px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .login__Input:focus {
+    outline: none;
+  }
+  
+  .login__Button {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(240, 128, 128);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .login__Button:disabled{
+    cursor: not-allowed;
+    border-color: rgb(226, 118, 118);
+  }
+  .login__RegisterButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
+  .login__RegisterButton> a{
+    text-decoration: none;
+    color: inherit;
+  }

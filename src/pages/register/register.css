@@ -1,0 +1,74 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+  }
+  
+  .register__Title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+  }
+  
+  .register__Form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+  
+  .register__Form > label {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .register__Input {
+    padding: 14px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  .register__Input:focus {
+    outline: none;
+  }
+  
+  .register__Button {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .register__LoginButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
+  .register__LoginButton > a{
+    text-decoration: none;
+    color: inherit;
+  }
+  .spanerr{
+    margin-top: 20px;
+    color:rgba(255, 0, 0, 0.979);
+  }
